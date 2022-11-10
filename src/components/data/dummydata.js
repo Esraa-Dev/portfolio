@@ -203,6 +203,30 @@ export const portfolio = [
     title: "Brex Logo",
     url: "https://teal-dasik-e64469.netlify.app/",
   },
+  {
+    id: 10,
+    cover: "../images/port/port10.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://rad-arithmetic-45bc64.netlify.app/",
+  },
+  {
+    id: 11,
+    cover: "../images/port/port11.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://effortless-kelpie-2473d4.netlify.app/",
+  },
+  {
+    id: 12,
+    cover: "../images/port/port12.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://sunny-raindrop-f2c2b4.netlify.app/",
+  },
 ];
 export const testimonials = [
   {
@@ -256,12 +280,12 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "Eygpt, Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "Gharbia, El-Mahalla El-Kubra City, Egypt",
+    text2: "Seattle, WA, 98101", 
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
+    text1: "010885566778",
     text2: "0345627891",
   },
   {
