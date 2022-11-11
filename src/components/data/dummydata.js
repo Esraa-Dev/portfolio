@@ -176,7 +176,7 @@ export const portfolio = [
     name: "Brand",
     category: "development",
     title: "Brex Logo",
-    url: "https://frolicking-tiramisu-19ccac.netlify.app/",
+    url: "https://desiney-clone.vercel.app/",
   },
   {
     id: 7,
