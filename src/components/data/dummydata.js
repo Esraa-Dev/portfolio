@@ -53,8 +53,8 @@ export const home = [
     text: "Hello I'm",
     name: "Esraa Mohammad",
     post: "Front End Developer",
-    // design: "Front End Developer",
-    // desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    design: "Front End Developer",
+    desc: "I am in love with front-end web development. I am a fast learner and Passionate for learning new technologies. I aim to learn professional processes of software development and work with a team according to structured standards in a productive environment.",
   },
 ];
 export const about = [
@@ -70,19 +70,19 @@ export const services = [
     id: 1,
     icon: <Settings />,
     title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: " I can convert any XD, Figma, PSD, Illustrator Design to creative design",
   },
   {
     id: 2,
     icon: <CropRotate />,
     title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "And this is by writing a clean code with comments.",
   },
   {
     id: 3,
     icon: <ViewInAr />,
     title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "I can build responsive web design for all devices mobile , tablet and desktop.",
   },
   // {
   //   id: 4,
