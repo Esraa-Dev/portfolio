@@ -187,6 +187,7 @@ section {
 .services .box {
   background-color: var(--primaryBackground);
   padding: 35px;
+  text-align: center;
 }
 .services i {
   color: var(--primaryColor);
