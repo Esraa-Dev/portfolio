@@ -111,6 +111,7 @@ p{
   .toggle {
     display: block;
     background: none;
+    padding: 0;
   }
   .hideMenu {
     display: block;
