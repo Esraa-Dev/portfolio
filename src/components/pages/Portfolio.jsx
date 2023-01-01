@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import { Heading } from "../common/Heading";
 import { portfolio } from "../data/dummydata";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))];
 export const Portfolio = () => {
   const [list, setLists] = useState(portfolio);
-  const [category, setCategory] = useState(allCategory);
-  console.log(setCategory);
+  // const [category, setCategory] = useState(allCategory);
+  // console.log(setCategory);
 
-  const filterItems = (category) => {
-    const newItems = portfolio.filter((item) => item.category === category);
-    setLists(newItems);
-    if (category === "all") {
-      setLists(portfolio);
-      return;
-    }
-  };
+  // const filterItems = (category) => {
+  //   const newItems = portfolio.filter((item) => item.category === category);
+  //   setLists(newItems);
+  //   if (category === "all") {
+  //     setLists(portfolio);
+  //     return;
+  //   }
+  // };
     
   return (
     <>
@@ -44,7 +44,7 @@ export const Portfolio = () => {
                 <div className="overlay">
                   {/* <h3>{item.title}</h3> */}
                   {/* <span>{item.name}</span> */}
-                  <a href={item.url}>
+                  <a href={item.url} target="_blank">
                    
                     <VisibilityOutlinedIcon />
                   </a>

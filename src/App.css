@@ -24,6 +24,7 @@ a {
   color: var(--white);
   text-decoration: none;
   transition: 0.5s;
+  padding: 10px;
 }
 a:hover {
   color: var(--primaryColor);
@@ -49,6 +50,7 @@ h6 {
 .flexsb {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 button {
   border: none;
@@ -57,10 +59,14 @@ button {
   font-size: 17px;
   background-color: var(--primaryColor);
   color: var(--white);
+  font-family: 'Cairo', sans-serif;
   padding: 15px 50px;
   border-radius: 50px;
-  margin-top: 20px;
   cursor: pointer;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 .fontSize {
   font-size: 20px;
@@ -71,9 +77,8 @@ button {
 }
 /*---------header-------------*/
 header {
-  background-color: var(--headingColor);
-  height: 10vh;
-  line-height: 10vh;
+  background-color: var(--primaryBackground);
+padding: 15px;
   position: sticky;
   top: 0;
   left: 0;
@@ -83,6 +88,9 @@ header {
 header a {
   margin-left: 40px;
 }
+
+svg{ transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -ms-transform: scale(1.5); -o-transform: scale(1.5);
+}
 p{
   font-size: 17px;
 }
@@ -91,31 +99,33 @@ p{
   color: var(--white);
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   header .nav {
     display: none;
   }
   header a {
-    width: 100%;
     display: block;
     color: var(--white);
   }
   .toggle {
     display: block;
-    font-size: 25px;
     background: none;
   }
   .hideMenu {
     display: block;
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     left: 0;
     width: 100%;
-    background-color: var(--headingColor);
+    background-color: var(--primaryBackground);
   }
   
 }
 /*---------header-------------*/
+.logo img{
+  height: 60px;
+  /* padding: 20px; */
+}
 section {
   height: 90vh;
   display: flex;
@@ -157,7 +167,7 @@ section {
   font-size: 30px;
   color: var(--primaryColor);
   font-weight: 600;
-  text-align: center;
+  /* text-align: center !important; */
   margin-bottom: 60px;
 }
 
@@ -169,12 +179,12 @@ section {
   text-align: left;
   margin: 0;
 }
-.left {
+/* .left {
   width: 35%;
 }
 .right {
   width: 65%;
-}
+} */
 
 /*---------about-------------*/
 .grid3 {
@@ -194,6 +204,9 @@ section {
 }
 .services h3 {
   margin-top: 20px;
+}
+.services .heading{
+  text-align: center;
 }
 
 /*---------services-------------*/
@@ -218,8 +231,8 @@ section {
 }
 /*---------counter-------------*/
 /*---------portfolio-------------*/
- .portfolio img{
-  height: 500000px;
+ article .heading{
+  text-align: center;
  }
 article {
   margin-top: 50px;
@@ -275,6 +288,7 @@ article .box:hover .overlay {
   margin-right: 20px;
 }
 /*---------portfolio-------------*/
+
 /*---------testimonials-------------*/
 .testimonials {
   display: flex;
@@ -332,6 +346,9 @@ label {
 }
 /*---------blog-------------*/
 /*---------contact-------------*/
+.contact .heading{
+  text-align: center;
+}
 .contact {
   margin: 20px 0;
  }
@@ -361,11 +378,34 @@ footer {
   margin-top: 50px;
 }
 footer i {
-  margin: 5px;
+  margin: 20px;
   color: var(--primaryColor);
 }
 /*---------footer-------------*/
+@media screen and (max-width: 986px) {
+  .left
+   {
+    display: none;
+  }
+  .right{
+    text-align: center;
+  }
+  .heading{
+    text-align: center !important;
+  }
+.grid3{
+      grid-template-columns: repeat(2, 1fr);
+}
+article {
+    margin-top: 150px;
+    /* padding-bottom: 50px; */
+  }
+  .contact,.counter{
+        margin-top: 200px;
+  }
+}
 @media screen and (max-width: 768px) {
+
   .hero {
     height: 60vh;
   }
@@ -391,19 +431,20 @@ footer i {
   .about .flex {
     flex-direction: column;
   }
-  .right,
-  .left {
-    width: 100%;
-  }
+  
   .grid4,
   .grid3 {
     grid-template-columns: repeat(1, 1fr);
   }
   article {
-    margin: 0;
+    margin-top: 250px;
     padding-bottom: 50px;
+  }
+  .contact,.counter{
+        margin-top: 200px;
   }
   p{
   font-size: 16px;
 }
+
 }

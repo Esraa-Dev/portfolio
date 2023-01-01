@@ -32,9 +32,9 @@ export const Contact = () => {
             </div>
             <div className="left">
               {contact.map((item) => (
-                <div className="box" data-aos="zoom-in">
-                  <i>{item.icon}</i>
-                  <p>{item.text1}</p>
+                <div className="box" data-aos="zoom-in" key={contact.id}>
+                  <i key={contact.id}>{item.icon}</i>
+                  <p key={contact.id}>{item.text1}</p>
                   {/* <p>{item.text2}</p> */}
                 </div>
               ))}

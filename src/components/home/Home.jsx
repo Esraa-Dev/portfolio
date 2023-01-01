@@ -1,11 +1,11 @@
 import React from "react";
-// import { About } from "../pages/About";
+import { About } from "../pages/About";
 // import { Blog } from "../pages/Blog";
 import { Contact } from "../pages/Contact";
-// import { Counter } from "../pages/Counter";
+import { Counter } from "../pages/Counter";
 import { Portfolio } from "../pages/Portfolio";
 import { Services } from "../pages/Services";
-// import { Testimonials } from "../pages/Testimonials";
+import { Testimonials } from "../pages/Testimonials";
 import { Hero } from "./Hero";
 import  Footer  from "../common/Footer";
 
@@ -13,11 +13,11 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      {/* <About /> */}
+      <About />
       <Services />
-      {/* <Counter /> */}
+      <Counter />
       <Portfolio />
-      {/* <Testimonials /> */}
+      <Testimonials />
       {/* <Blog /> */}
       <Contact />
       <Footer />

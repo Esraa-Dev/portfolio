@@ -2,9 +2,9 @@ import {
   Settings,
   CropRotate,
   ViewInAr,
-  PieChart,
-  Code,
-  BarChart,
+  // PieChart,
+  // Code,
+  // BarChart,
   CloudOutlined,
   FavoriteBorder,
   Public,
@@ -23,10 +23,10 @@ export const navlink = [
     url: "/",
     text: "Home",
   },
-  // {
-  //   url: "/about",
-  //   text: "About",
-  // },
+  {
+    url: "/about",
+    text: "About",
+  },
   {
     url: "/services",
     text: "Services",
@@ -35,10 +35,10 @@ export const navlink = [
     url: "/portfolio",
     text: "Portfolio",
   },
-  // {
-  //   url: "/testimonials",
-  //   text: "Testimonials",
-  // },
+  {
+    url: "/testimonials",
+    text: "Testimonials",
+  },
   // {
   //   url: "/blog",
   //   text: "Blog",
@@ -59,10 +59,9 @@ export const home = [
 ];
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1:
-      "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/man.png",
+    desc:"I'm Esraa Mohammad.I am Expert in Web Development with lot of experience, Creatively develop your Website.A Frontend & Javascript Developer, with 2+ Years of Experience building and maintaining responsive websites. Proficient in HTML, CSS, jQuery, JavaScript, Bootstrap, SASS, React js, and modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe PhotoShop & Adobe XD ",
+    desc1:"I'm Esraa Mohammad, a web developer where I can present to you developing the front end of the web, you will get design and write clean and responsive codes With all the screens from the largest to the smallest for the screens for phones, and all of this and more using Bootstrap and CSS and according to the Javascript frameworks, your project will be worked on using React js, I am pleased and honored to visit my profile.",
+    cover: "./images/woman.png",
   },
 ];
 export const services = [
@@ -176,7 +175,7 @@ export const portfolio = [
     name: "Brand",
     category: "development",
     title: "Brex Logo",
-    url: "https://desiney-clone.vercel.app/",
+    url: "https://desiney-clone-bfvw4krvr-esraamohammadabdelmoteleb.vercel.app/",
   },
   {
     id: 7,
@@ -279,16 +278,19 @@ export const blog = [
 ];
 export const contact = [
   {
+    id: 0,
     icon: <AddLocationAltOutlined />,
     text1: "Gharbia, El-Mahalla El-Kubra City, Egypt",
-    text2: "Seattle, WA, 98101", 
+    text2: "Seattle, WA, 98101",
   },
   {
+    id: 1,
     icon: <PhoneIphone />,
     text1: "010885566778",
     text2: "0345627891",
   },
   {
+    id: 2,
     icon: <EmailOutlined />,
     text1: "esraamohammad107@gmail.com",
     text2: "inf0@brex-theme.io",
@@ -296,15 +298,19 @@ export const contact = [
 ];
 export const social = [
   {
+    id: 0,
     icon: <Facebook />,
   },
   {
+    id: 1,
     icon: <Twitter />,
   },
   {
+    id: 2,
     icon: <Instagram />,
   },
   {
+    id: 3,
     icon: <YouTube />,
   },
 ];
