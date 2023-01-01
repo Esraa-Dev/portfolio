@@ -106,25 +106,25 @@ export const project = [
   {
     id: 1,
     icon: <CloudOutlined />,
-    num: "89",
+    num: "10",
     title: "HAPPY CLIENTS",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
-    num: "231",
+    num: "15",
     title: "PROJECTS COMPLEATED",
   },
   {
     id: 3,
     icon: <Public />,
-    num: "108",
+    num: "30",
     title: "FILES DOWNLOADED",
   },
   {
     id: 4,
     icon: <PersonOutlined />,
-    num: "1446",
+    num: "2000",
     title: "LIENS OF CODE",
   },
 ];

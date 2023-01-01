@@ -89,7 +89,7 @@ header a {
   margin-left: 40px;
 }
 
-svg{ transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -ms-transform: scale(1.5); -o-transform: scale(1.5);
+svg{ transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2);
 }
 p{
   font-size: 17px;
@@ -379,6 +379,7 @@ footer {
 }
 footer i {
   margin: 20px;
+  padding: 5px;
   color: var(--primaryColor);
 }
 /*---------footer-------------*/
