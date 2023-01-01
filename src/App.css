@@ -384,6 +384,9 @@ footer i {
 }
 /*---------footer-------------*/
 @media screen and (max-width: 986px) {
+  .logo img{
+    height: 50px;
+}
   .left
    {
     display: none;
@@ -406,7 +409,9 @@ article {
   }
 }
 @media screen and (max-width: 768px) {
-
+.logo img{
+    height: 50px;
+}
   .hero {
     height: 60vh;
   }
