@@ -149,9 +149,9 @@ export const portfolio = [
     id: 3,
     cover: "../images/port/port3.png",
     name: "Brand",
-    category: "development",
+    category: "design",
     title: "Brex Logo",
-    url: "https://helpful-taiyaki-d63c2c.netlify.app/",
+    url: "https://portifolo-company-6b6zzabe9-esraamohammadabdelmoteleb.vercel.app/",
   },
   {
     id: 4,

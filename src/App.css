@@ -26,9 +26,7 @@ a {
   transition: 0.5s;
   padding: 10px;
 }
-a:hover {
-  color: var(--primaryColor);
-}
+
 p {
   color: var(--sliver);
   font-size: 15px;
