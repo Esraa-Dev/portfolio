@@ -196,7 +196,7 @@ export const portfolio = [
 
   {
     id: 9,
-    cover: "../images/port/port9.png",
+    cover: "../images/port/port15.png",
     name: "Brand",
     category: "design",
     title: "Brex Logo",
