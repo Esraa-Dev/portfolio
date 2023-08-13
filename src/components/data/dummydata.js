@@ -125,10 +125,50 @@ export const project = [
     id: 4,
     icon: <PersonOutlined />,
     num: "2000",
-    title: "LIENS OF CODE",
+    title: "LINES OF CODE",
   },
 ];
 export const portfolio = [
+  {
+    id: 16,
+    cover: "../images/port/port16.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://tuwaiq.vercel.app/",
+  },
+  {
+    id: 17,
+    cover: "../images/port/port17.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://navigation-company.vercel.app/",
+  },
+  {
+    id: 3,
+    cover: "../images/port/port13.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://souvenir-sepia.vercel.app/",
+  },
+  {
+    id: 18,
+    cover: "../images/port/port18.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://dubai-desert-safari.vercel.app/",
+  },
+  {
+    id: 19,
+    cover: "../images/port/port19.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://blog-system-three.vercel.app/",
+  },
   {
     id: 1,
     cover: "../images/port/port1.png",
@@ -145,14 +185,7 @@ export const portfolio = [
     title: "Brex Logo",
     url: "https://profound-blancmange-6b9b50.netlify.app/",
   },
-  {
-    id: 3,
-    cover: "../images/port/port13.png",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
-    url: "https://souvenir-sepia.vercel.app/",
-  },
+
   {
     id: 4,
     cover: "../images/port/port4.png",
@@ -226,7 +259,6 @@ export const portfolio = [
     title: "Brex Logo",
     url: "https://sunny-raindrop-f2c2b4.netlify.app/",
   },
-  
 ];
 export const testimonials = [
   {
