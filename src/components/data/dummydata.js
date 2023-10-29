@@ -130,6 +130,14 @@ export const project = [
 ];
 export const portfolio = [
   {
+    id: 20,
+    cover: "../images/port/port20.png",
+    name: "Brand",
+    category: "design",
+    title: "Brex Logo",
+    url: "https://ptgtourism.vercel.app/",
+  },
+  {
     id: 16,
     cover: "../images/port/port16.png",
     name: "Brand",
@@ -263,25 +271,19 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "The work on the Front-End is excellent! The pages are professionally designed, striking the perfect balance between aesthetics and functionality.",
     image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
+    name: "Ali Saad",
     post: "Front End Developer",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "The Front-End is amazing! Pages load quickly and are responsive on all devices, ensuring a seamless and user-friendly interaction with the website.",
     image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
+    name: "Ahmad Mostafa",
     post: "Back End Developer",
   },
-  {
-    id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
-  },
+
 ];
 export const blog = [
   {

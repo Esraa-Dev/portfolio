@@ -10,16 +10,8 @@ const Footer = () => {
             <i>{item.icon}</i>
           </>
         ))}
-        <p>All Right Reserved 2022</p>
+        <p>All Right Reserved {new Date().getFullYear()}</p>
       </footer>
-      {/* <footer>
-        {social.map((item) => (
-          <>
-            <i data-aos='zoom-in'>{item.icon}</i>
-          </>
-        ))}
-        <p data-aos='zoom-in'>All Right Reserved 2022</p>
-      </footer> */}
     </>
   );
 }

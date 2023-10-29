@@ -4,7 +4,6 @@ import Footer from "../common/Footer";
 import  Header  from "../common/Header";
 import { Home } from "../home/Home";
 import { About } from "./About";
-import { Blog } from "./Blog";
 import { Contact } from "./Contact";
 import { Portfolio } from "./Portfolio";
 import { Services } from "./Services";
@@ -19,7 +18,6 @@ const Pages = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>
